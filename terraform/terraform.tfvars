@@ -1,6 +1,6 @@
-project_id        = "burner-jubsharm"
+project_id        = "gcp-project-id"
 region            = "us-central1"
-bq_table          = "projects/burner-jubsharm/datasets/raw_dataset/tables/raw_customer_onboarding"
+bq_table          = "projects/gcp-project-id/datasets/raw_dataset/tables/raw_customer_onboarding"
 dq_rules_yaml_loc = "configs/quality_scan.yaml"
 enable_alerting   = true
 alert_email       = "jubin.sharma@gmail.com"

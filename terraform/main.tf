@@ -50,7 +50,7 @@ module "data_quality_scan" {
   }
   iam = {
     "roles/dataplex.dataScanAdmin" = [
-      "serviceAccount:dataplex-admin@burner-jubsharm.iam.gserviceaccount.com"
+      "serviceAccount:dataplex-admin@gcp-project-id.iam.gserviceaccount.com"
     ],
     "roles/dataplex.dataScanEditor" = [
       "user:jubsharm@gmail.net"

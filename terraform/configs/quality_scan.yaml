@@ -91,4 +91,4 @@ sampling_percent: 100.0
 
 post_scan_actions:
   bigquery_export:
-    results_table: "projects/burner-jubsharm/datasets/raw_dataset/tables/raw_customer_onboarding_quality_scan"
+    results_table: "projects/gcp-project-id/datasets/raw_dataset/tables/raw_customer_onboarding_quality_scan"

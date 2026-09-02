@@ -5,7 +5,7 @@ except ImportError:
     from yaml import Loader, Dumper
 from google.cloud import dataplex_v1
 
-PROJECT = 'burner-jubsharm'
+PROJECT = 'gcp-project-id'
 LOCATION = 'us-central1'
 # DATA_SCAN = 'customer-onboarding-dq'
 DATA_SCAN = 'raw-customer-onboarding'
